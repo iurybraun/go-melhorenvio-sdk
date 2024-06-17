@@ -46,6 +46,7 @@ type CotacaoRequest struct {
 	Products []Product `json:"products,omitempty"`
 	Volumes  []Volume  `json:"volumes,omitempty"`
 	Options  Options   `json:"options,omitempty"`
+	Services string    `json:"services,omitempty"`
 }
 
 type DeliveryRange struct {
