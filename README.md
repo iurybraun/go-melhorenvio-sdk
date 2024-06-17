@@ -71,6 +71,7 @@ Código em estado `alpha`.
 				Quantity:       1,
 			},
 		},
+		Services: "1,2,3,12,18",
 	})
 	if err != nil {
 		panic(err)
